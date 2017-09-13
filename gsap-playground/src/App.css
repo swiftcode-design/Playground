@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  background: pink;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  width: 10px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Nav{
+  background: #333333;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  width: 100%;
+}
+.hamburger{
+  /*background: green;*/
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.hamburger span{
+  position: relative;
+  background: grey;
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin-bottom: 5px;
+}
+
+.sidenav{
+  position: relative;
+  left: -280px;
+  background: green;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/logo-man.svg');
+  width: 280px;
+  min-height: 100vh;
+}
+
+.jumbotron{
+  /*height: 100vh - 90px;*/
+  position: relative;
+  background: green;
+  height: 400px;
+  width: 400px;
+}
+
+.a-logo{
+  height: 400px;
+  width: 400px;
+  position: relative;
+  display: block;
+}
