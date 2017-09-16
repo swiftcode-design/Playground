@@ -3,7 +3,7 @@ const express = require('express')
 , MongoClient = require('mongodb').MongoClient
 , ObjectID = require('mongodb').ObjectID
 , connection = (closure) => {
-    return MongoClient.connect('mongodb://<dbuser>:<dbpassword>@ds135534.mlab.com:35534/meanplayground', (err, db) => {
+    return MongoClient.connect('mongodb://swiftcode:swiftcode@ds135534.mlab.com:35534/meanplayground', (err, db) => {
         if(err) return console.log(err);
         closure(db);
     })
