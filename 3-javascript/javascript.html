@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>Javascript</title>
+  </head>
+  <body>
+    <input id="inputForNewText" type="text" name="" value="">
+    <button id="changeTextButton">Change the text</button>
+    <p id="textToChange">This is some text</p>
+    <script type="text/javascript" >
+      var x = 'new text';
+      document.getElementById('changeTextButton').onclick=function(){
+        document.getElementById('textToChange').innerHTML = document.getElementById('inputForNewText').value;
+        document.getElementById('inputForNewText').value = '';
+      }
+    </script>
+  </body>
+</html>
