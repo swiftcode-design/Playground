@@ -12,6 +12,14 @@ export default class Auth {
       params: {
         scope: 'openid'
       }
+    },
+    theme: {
+      logo: 'https://i.pinimg.com/736x/33/b8/69/33b869f90619e81763dbf1fccc896d8d--lion-logo-modern-logo.jpg',
+      primaryColor: '#00FBCA',
+    },
+    languageDictionary: {
+      title: 'Custom Title',
+      emailInputPlaceholder: 'some placeholder for your email'
     }
   })
 
